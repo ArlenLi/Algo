@@ -52,7 +52,7 @@ namespace StacksAndQueues
 
     public class EmptyStackException : Exception
     {
-        public EmptyStackException() : base("Stack is Empty")
+        public EmptyStackException() : this("Stack is Empty")
         {
         }
 
