@@ -63,23 +63,22 @@ namespace StacksAndQueues
                 Data = data;
             }
         } 
-
-        private class EmptyQueueException : Exception
+    }
+    public class EmptyQueueException : Exception
+    {
+        public EmptyQueueException() : base("Queue is Empty")
         {
-            public EmptyQueueException() : base("Queue is Empty")
-            {
 
-            }
+        }
 
-            public EmptyQueueException(string message): base(message)
-            {
+        public EmptyQueueException(string message) : base(message)
+        {
 
-            }
+        }
 
-            public EmptyQueueException(string message, Exception inner) : base(message, inner)
-            {
+        public EmptyQueueException(string message, Exception inner) : base(message, inner)
+        {
 
-            }  
         }
     }
 }

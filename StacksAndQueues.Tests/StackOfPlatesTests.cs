@@ -6,7 +6,7 @@ using System.Text;
 
 namespace StacksAndQueues.Tests
 {
-    public class StackOfPlates
+    public class StackOfPlatesTests
     {
         [Test]
         public void StackOfPlates_Pop_WhenEmpty_ThrowsEmptyStackException()
