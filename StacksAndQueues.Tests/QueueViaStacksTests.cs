@@ -71,14 +71,10 @@ namespace StacksAndQueues.Tests
             var queueViaStacks = new QueueViaStacks<int>();
 
             // Act
-            var isEmpty = queueViaStacks.isEmpty();
+            var isEmpty = queueViaStacks.IsEmpty();
 
             // Assert
             isEmpty.Should().BeTrue();
         }
-
-
-
-
     }
 }

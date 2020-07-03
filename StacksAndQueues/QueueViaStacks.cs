@@ -24,7 +24,7 @@ namespace StacksAndQueues
         {
             if(!isLastOperationPush)
             {
-                while(!stackForPop.isEmpty())
+                while(!stackForPop.IsEmpty())
                 {
                     var data = stackForPop.Pop();
                     stackForPush.Push(data);
@@ -38,7 +38,7 @@ namespace StacksAndQueues
         {
             if(isLastOperationPush)
             {
-                while (!stackForPush.isEmpty())
+                while (!stackForPush.IsEmpty())
                 {
                     var data = stackForPush.Pop();
                     stackForPop.Push(data);
@@ -46,7 +46,7 @@ namespace StacksAndQueues
             }
 
             isLastOperationPush = false;
-            if (stackForPop.isEmpty())
+            if (stackForPop.IsEmpty())
                 throw new EmptyQueueException();
             return stackForPop.Pop();
         }
@@ -55,7 +55,7 @@ namespace StacksAndQueues
         {
             if (isLastOperationPush)
             {
-                while (!stackForPush.isEmpty())
+                while (!stackForPush.IsEmpty())
                 {
                     var item = stackForPush.Pop();
                     stackForPop.Push(item);
@@ -63,14 +63,14 @@ namespace StacksAndQueues
             }
 
             isLastOperationPush = false;
-            if (stackForPop.isEmpty())
+            if (stackForPop.IsEmpty())
                 throw new EmptyQueueException();
             return stackForPop.Peek();
         }
 
-        public bool isEmpty() 
+        public bool IsEmpty() 
         {
-            return stackForPop.isEmpty() && stackForPush.isEmpty();
+            return stackForPop.IsEmpty() && stackForPush.IsEmpty();
         }
     }
 }

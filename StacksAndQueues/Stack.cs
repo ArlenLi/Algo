@@ -35,7 +35,7 @@ namespace StacksAndQueues
                 return top.Data;
         }
 
-        public bool isEmpty()
+        public bool IsEmpty()
         {
             return top == null;
         }
