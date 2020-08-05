@@ -9,7 +9,7 @@ namespace TreesAndGraphs.Tests
         public void ListOfDepthsAlgo_WhenRootIsNull_ReturnsEmptyLists()
         {
             // Arrange & Act
-            var results = ListOfDepths.ListOfDepthsAlgo(null);
+            var results = ListOfDepths<int>.ListOfDepthsAlgo(null);
 
             // Assert
             results.Count.Should().Be(0);
@@ -32,7 +32,7 @@ namespace TreesAndGraphs.Tests
             rootRight.Right = rootRightRight;
 
             // Act
-            var results = ListOfDepths.ListOfDepthsAlgo(root);
+            var results = ListOfDepths<int>.ListOfDepthsAlgo(root);
 
             // Assert
             results.Count.Should().Be(3);
