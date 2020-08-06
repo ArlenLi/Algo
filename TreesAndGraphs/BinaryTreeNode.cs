@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TreesAndGraphs
+﻿namespace TreesAndGraphs
 {
     public class BinaryTreeNode<T>
     {
@@ -12,9 +8,17 @@ namespace TreesAndGraphs
 
         public BinaryTreeNode<T> Right { get; set; }
 
+        public BinaryTreeNode<T> Parent { get; set; }
+
         public BinaryTreeNode(T data)
         {
             Data = data;
+        }
+
+        public BinaryTreeNode(T data, BinaryTreeNode<T> parent)
+        {
+            Data = data;
+            Parent = parent;
         }
     }
 }
