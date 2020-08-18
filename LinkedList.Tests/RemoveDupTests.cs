@@ -1,6 +1,5 @@
 using FluentAssertions;
 using NUnit.Framework;
-using NUnit.Framework.Interfaces;
 
 namespace LinkedList.Tests
 {
