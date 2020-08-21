@@ -24,7 +24,7 @@ namespace TreesAndGraphs
             else if (leftSequences.Count == 0)
             {
                 foreach (var rightSequence in rightSequences)
-                        Weave(new List<int>(), rightSequence, prefixSequence, result);
+                    Weave(new List<int>(), rightSequence, prefixSequence, result);
             }
             else if (rightSequences.Count == 0)
             {
