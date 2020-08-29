@@ -1,9 +1,5 @@
 ﻿using FluentAssertions;
-using FluentAssertions.Specialized;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TreesAndGraphs.Tests
 {
