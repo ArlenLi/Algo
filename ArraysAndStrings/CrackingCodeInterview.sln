@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StacksAndQueues", "..\Stack
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StacksAndQueues.Tests", "..\StacksAndQueues.Tests\StacksAndQueues.Tests.csproj", "{362F57D9-EF27-456E-8AA5-1F99166041E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreesAndGraphs", "..\TreesAndGraphs\TreesAndGraphs.csproj", "{BEB7CCE2-586A-44CB-913D-DB52DDB58F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreesAndGraphs", "..\TreesAndGraphs\TreesAndGraphs.csproj", "{BEB7CCE2-586A-44CB-913D-DB52DDB58F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreesAndGraphs.Tests", "..\TreesAndGraphs.Tests\TreesAndGraphs.Tests.csproj", "{C9D994C3-6E8F-4184-B819-6DA57D63F307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreesAndGraphs.Tests", "..\TreesAndGraphs.Tests\TreesAndGraphs.Tests.csproj", "{C9D994C3-6E8F-4184-B819-6DA57D63F307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "..\Dynamic\Dynamic.csproj", "{AB5EC8C0-302F-40AD-96C9-B583288B4929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic.Tests", "..\Dynamic.Tests\Dynamic.Tests.csproj", "{DE9627BC-D434-47AB-BEA5-AD4D4D934EF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{C9D994C3-6E8F-4184-B819-6DA57D63F307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D994C3-6E8F-4184-B819-6DA57D63F307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D994C3-6E8F-4184-B819-6DA57D63F307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5EC8C0-302F-40AD-96C9-B583288B4929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5EC8C0-302F-40AD-96C9-B583288B4929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5EC8C0-302F-40AD-96C9-B583288B4929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5EC8C0-302F-40AD-96C9-B583288B4929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9627BC-D434-47AB-BEA5-AD4D4D934EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9627BC-D434-47AB-BEA5-AD4D4D934EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9627BC-D434-47AB-BEA5-AD4D4D934EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9627BC-D434-47AB-BEA5-AD4D4D934EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
