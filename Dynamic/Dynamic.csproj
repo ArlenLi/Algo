@@ -40,8 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MagicIndex.cs" />
+    <Compile Include="PowerSet.cs" />
     <Compile Include="RobotInGrid.cs" />
     <Compile Include="TripleStep.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
