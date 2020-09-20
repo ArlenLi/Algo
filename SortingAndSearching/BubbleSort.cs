@@ -1,20 +1,23 @@
-﻿namespace SortingAndSearching
+﻿using System.Linq;
+
+namespace SortingAndSearching
 {
     public class BubbleSort
     {
-        public static int[] BubbleSortAlgo(int[] unsortedArray)
+        public static int[] BubbleSortAlgo(int[] input)
         {
-            for (int i = 0; i < unsortedArray.Length; i++)
-                for (int j = 0; j < unsortedArray.Length - 1 - i; j++)
+            var result = input.ToArray();
+            for (int i = 0; i < result.Length; i++)
+                for (int j = 0; j < result.Length - 1 - i; j++)
                 {
-                    var temp = unsortedArray[j];
-                    if (unsortedArray[j] > unsortedArray[j + 1])
+                    var temp = result[j];
+                    if (result[j] > result[j + 1])
                     {
-                        unsortedArray[j] = unsortedArray[j + 1];
-                        unsortedArray[j + 1] = temp;
+                        result[j] = result[j + 1];
+                        result[j + 1] = temp;
                     }
                 }
-            return unsortedArray;        
+            return result;        
         }
     }
 }

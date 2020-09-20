@@ -15,7 +15,8 @@ namespace SortingAndSearching.Tests
             //var expected = new int[] { -666, -20, 0, 1, 30, 33, 66, 888, 999 };
 
             // Act & Assert
-            BubbleSort.BubbleSortAlgo(input.ToArray()).Should().BeInAscendingOrder();
+            BubbleSort.BubbleSortAlgo(input).Should().BeInAscendingOrder();
+            SelectionSort.SelectionSortAlgo(input).Should().BeInAscendingOrder();
         }
     }
 }
